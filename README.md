@@ -9,11 +9,16 @@ Template for Keystone Enclave Application
   - Cannot build with latest gnu libc and musl libc now (2023.05)
 
 ## Usage
-- Clone template
+- Download init script
   ```
-  git clone https://github.com/Nanamiiiii/keystone-app-template.git
+  wget https://gist.githubusercontent.com/Nanamiiiii/8c2d8c76c8b72157ec02814ed6c3aa7b/raw/4d3bb481c90cd30e6209971cab6dc979ab733836/keinit
   ```
-  
+
+- Create project
+  ```
+  ./keinit <project_name>
+  cd <project_name>
+  ```
 
 - Setup runtime
   - Use setup script
