@@ -13,11 +13,7 @@ Template for Keystone Enclave Application
   ```
   git clone https://github.com/Nanamiiiii/keystone-app-template.git
   ```
-
-- Init project with template  
-  ```
-  git init --template=<path_to_template> <project_name>
-  ```
+  
 
 - Setup runtime
   - Use setup script
