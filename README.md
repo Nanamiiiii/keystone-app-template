@@ -12,6 +12,7 @@ Template for Keystone Enclave Application
 - Download init script
   ```
   wget https://gist.githubusercontent.com/Nanamiiiii/8c2d8c76c8b72157ec02814ed6c3aa7b/raw/4d3bb481c90cd30e6209971cab6dc979ab733836/keinit
+  chmod +x keinit
   ```
 
 - Create project
