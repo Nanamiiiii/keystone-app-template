@@ -54,7 +54,7 @@ set(host_bin ${PROJECT_NAME}-host) # host app name
 set(package_name "${PROJECT_NAME}.ke") # makeself package name 
 
 # executed command after extracting. this follows the definition in th host app.
-set(package_script "${host_bin} ${eapp_bin} eyrie-rt") 
+set(package_script "./${host_bin} ${eapp_bin} eyrie-rt") 
 #### NEED TO MODIFY ###
 
 if(RISCV32)
