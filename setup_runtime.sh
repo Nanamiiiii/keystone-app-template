@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RUNTIME_VER=2023.05.21-master
+RUNTIME_VER=2023.09.13-master
 
 # Check pre-requisite
 if (! $(command -v git > /dev/null))
